@@ -1,0 +1,4 @@
+Makefile
+*.o
+qbuffertest
+*.pro.user
