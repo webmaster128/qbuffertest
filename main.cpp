@@ -4,6 +4,9 @@
 
 int main(int argc, char *argv[])
 {
+    // Uncomment this to get a stacktrace in debugger from warning
+    // qputenv("QT_FATAL_WARNINGS", "1");
+
     QFile file("86e231db24c2fd370992d91a9e889636.jpg");
 
     if (!file.open(QIODevice::ReadOnly))
