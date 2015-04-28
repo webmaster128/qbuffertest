@@ -2,3 +2,6 @@ Makefile
 *.o
 qbuffertest
 *.pro.user
+
+# Text backups
+*~
