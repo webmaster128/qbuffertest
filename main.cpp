@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 
     if (!file.open(QIODevice::ReadOnly))
     {
-        qFatal("Could not load sample image. Plase copy image file manually from source dir to build dir.");
+        qFatal("Could not load sample image. Please copy image file manually from source dir to build dir.");
         return 1;
     }
 
